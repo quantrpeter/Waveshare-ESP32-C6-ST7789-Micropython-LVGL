@@ -20,7 +20,7 @@ _SCK = 1  # SCL
 _HOST = 1  # SPI2
 
 # _LCD_CS = 14
-_LCD_FREQ = 2000000
+_LCD_FREQ = 8000000
 
 _OFFSET_X = 0
 _OFFSET_Y = 0
@@ -61,7 +61,7 @@ print('s4');
 
 display.set_power(True)
 display.init()
-display.set_color_inversion(True)
+# display.set_color_inversion(True)
 # display.set_rotation(lv.DISPLAY_ROTATION._90)
 display.set_backlight(100)
 
